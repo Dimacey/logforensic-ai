@@ -8,7 +8,13 @@
 [![Gemini API](https://img.shields.io/badge/Gemini-3.8_Flash_2M-purple.svg)](https://aistudio.google.com)
 [![Google Cloud Run](https://img.shields.io/badge/Deploy-Cloud_Run-4285F4.svg)](https://cloud.google.com/run)
 
-[![Deploy to Cloud Run](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/TerehovDV/LogForensicAI.git)
+---
+
+### 🚀 Розгортання в один клік (1-Click Deployment)
+
+[![Deploy to Cloud Run](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/Dimacey/logforensic-ai.git)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/new?template=https://github.com/Dimacey/logforensic-ai)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Dimacey/logforensic-ai)
 
 ---
 
@@ -80,8 +86,8 @@
 
 1. **Клонуйте репозиторій:**
    ```bash
-   git clone https://github.com/TerehovDV/LogForensicAI.git
-   cd LogForensicAI
+   git clone https://github.com/Dimacey/logforensic-ai.git
+   cd logforensic-ai
    ```
 
 2. **Встановіть залежності:**
@@ -146,7 +152,7 @@ gcloud run deploy logforensic-ai \
   > Zero-Shot Distributed System Forensic & SRE Incident Post-Mortem Platform powered by Gemini 3.8 Flash (2M+ Context). Correlates multi-service logs, localizes code culprits & generates production SRE reports.
 
 - **Website / Demo URL:**
-  > `https://logforensic-ai.run.app` (або посилання вашого сервісу на Cloud Run)
+  > `https://logforensic-ai.ai.studio`
 
 - **GitHub Topics / Tags:**
   ```text
@@ -158,72 +164,3 @@ gcloud run deploy logforensic-ai \
 ## 📄 Ліцензія
 
 Цей проект розповсюджується під ліцензією [MIT](LICENSE). Вільний для комерційного та некомерційного використання.
-
----
-
-## 🌐 Promotional Content & Social Media Copy (English)
-
-### 💼 LinkedIn Announcement Post
-```text
-🚨 Tired of digging through millions of log lines during 3 AM production outages?
-
-Traditional APM tools (Datadog, Dynatrace, CloudWatch) alert you when HTTP 500 rates spike, but they don't read your source code, and they can't pinpoint why a deadlock occurred at millisecond T-0.
-
-I'm excited to release LogForensic AI — an open-source, Zero-Shot Distributed System Forensic & SRE Incident Post-Mortem Platform powered by Gemini 3.8 Flash (2M+ context window).
-
-Key Features:
-🔍 Ingests massive multi-service logs (Nginx, Kubernetes, Node, PostgreSQL, Redis) simultaneously.
-⏱️ Reconstructs the exact millisecond-precision Causation Chain from initial trigger to cascading collapse.
-🎯 Code Culprit Localization: identifies suspect lines of code responsible for connection pool deadlocks, memory leaks, and distributed race conditions.
-📋 Generates enterprise-grade Google SRE Post-Mortem reports (Executive Summary, Trigger, Lessons Learned, Action Items P0/P1) with one-click clean PDF export.
-🛡️ Auto-Cascade Quota Guard: graceful degradation (Gemini 3.8 Flash ➔ Flash Latest ➔ 3.1 Flash-Lite ➔ Offline Heuristic) ensuring 100% uptime with 200 OK responses.
-🔒 Privacy-first BYOK (Bring Your Own Key) stored in local storage only.
-
-Try the interactive sandbox with 3 real-world SEV-1 failure scenarios out of the box!
-
-🔗 GitHub: https://github.com/TerehovDV/LogForensicAI
-🚀 Live Demo: https://logforensic-ai.run.app
-
-#SRE #DevOps #Observability #GeminiAPI #IncidentResponse #DistributedSystems #OpenSource #React #TypeScript
-```
-
-### 🐦 X (Twitter) Thread / Post
-```text
-Troubleshooting distributed system crashes doesn't have to take hours.
-
-Introducing LogForensic AI 🛡️
-Zero-Shot System Forensic & SRE Post-Mortem platform with Gemini 3.8 Flash.
-
-Dump raw logs + code ➔ Get root cause, causation timeline, culprit code & SRE report in seconds.
-
-⚡ Features:
-- 2M+ context window for full multi-service log dumps
-- Millisecond-precision incident timeline & anomaly histogram
-- Code culprit diff & mitigation infra patches
-- Quota Guard: 3-tier cascade fallback (never breaks or returns 500)
-- 100% free interactive sandbox (0 author tokens spent)
-
-Live demo & open-source on GitHub 👇
-🔗 https://github.com/TerehovDV/LogForensicAI
-
-#DevOps #SRE #AIStudio #BuildWithGemini
-```
-
-### 👽 Reddit / r/devops / r/sre / Hacker News
-```text
-Title: Show HN: LogForensic AI – Zero-Shot Distributed System Forensics and SRE Post-Mortems using Gemini 3.8 Flash
-
-Hey everyone!
-During major SEV-1 incidents, correlating disparate logs across Kubernetes pods, ingress gateways, and database slow-query logs while trying to inspect recent git commits is stressful and slow.
-
-I built LogForensic AI to automate the entire forensic analysis loop:
-1. Ingest multi-service logs alongside suspect repository code.
-2. Leverage the 2M+ context window of Gemini 3.8 Flash to pinpoint the exact root cause (not just surface symptoms).
-3. Generate a structured Google SRE Post-Mortem with timeline, lessons learned, action items, and mitigation patches.
-4. Export clean white PDF reports directly for stakeholders.
-
-It also includes an Auto-Cascade Quota Guard that falls back gracefully across model tiers and down to client-side heuristics if rate limits are reached, so the UI is always responsive.
-
-Code is MIT-licensed and available on GitHub: https://github.com/TerehovDV/LogForensicAI
-Feedback and PRs are welcome!
-```

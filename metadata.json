@@ -1,0 +1,8 @@
+{
+  "name": "LogForensic AI - Zero-Shot Incident & System Forensic Platform",
+  "description": "Платформа глибинного форензік-аналізу розподілених систем, мікросервісних логів та коду на базі наддовгого контексту Gemini з виявленням прихованих аномалій, побудовою таймлайну інциденту та генерацією SRE Post-Mortem звітів.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
